@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0419C70A1DC1E5EB00311DCF /* YinkeNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7091DC1E5EB00311DCF /* YinkeNetworking.m */; };
+		0419C70F1DC1ED1600311DCF /* KTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C70C1DC1ED1600311DCF /* KTNavigationViewController.m */; };
+		0419C7101DC1ED1600311DCF /* KTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C70E1DC1ED1600311DCF /* KTTabBarController.m */; };
+		0419C7171DC1EE4700311DCF /* KTHotLiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7161DC1EE4700311DCF /* KTHotLiveTableViewController.m */; };
+		0419C71A1DC1EE6A00311DCF /* KTNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7191DC1EE6A00311DCF /* KTNearViewController.m */; };
+		0419C7231DC1EFA300311DCF /* Lives.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C71D1DC1EFA300311DCF /* Lives.m */; };
+		0419C7241DC1EFA300311DCF /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7201DC1EFA300311DCF /* Creator.m */; };
+		0419C7251DC1EFA300311DCF /* YKHotLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7221DC1EFA300311DCF /* YKHotLive.m */; };
+		0419C7291DC1F62700311DCF /* YKHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419C7271DC1F62700311DCF /* YKHotTableViewCell.m */; };
+		0419C72A1DC1F62700311DCF /* YKHotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0419C7281DC1F62700311DCF /* YKHotTableViewCell.xib */; };
+		042B26281DC1DA9600E86A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B26271DC1DA9600E86A43 /* main.m */; };
+		042B262B1DC1DA9600E86A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B262A1DC1DA9600E86A43 /* AppDelegate.m */; };
+		042B26331DC1DA9600E86A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B26321DC1DA9600E86A43 /* Assets.xcassets */; };
+		042B26361DC1DA9600E86A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B26341DC1DA9600E86A43 /* LaunchScreen.storyboard */; };
+		048FCFA21DC2E48D009E2FCF /* YKHotLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFA01DC2E48D009E2FCF /* YKHotLiveChatViewController.m */; };
+		048FCFA31DC2E48D009E2FCF /* YKHotLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FCFA11DC2E48D009E2FCF /* YKHotLiveChatViewController.xib */; };
+		048FCFA71DC2EF0F009E2FCF /* SXTNearLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFA51DC2EF0F009E2FCF /* SXTNearLiveCell.m */; };
+		048FCFA81DC2EF0F009E2FCF /* SXTNearLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FCFA61DC2EF0F009E2FCF /* SXTNearLiveCell.xib */; };
+		048FCFB01DC2F450009E2FCF /* YKNearCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFAB1DC2F450009E2FCF /* YKNearCreator.m */; };
+		048FCFB11DC2F450009E2FCF /* YKNearLives.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFAD1DC2F450009E2FCF /* YKNearLives.m */; };
+		048FCFB21DC2F450009E2FCF /* YKNearPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFAF1DC2F450009E2FCF /* YKNearPerson.m */; };
+		048FCFB81DC30145009E2FCF /* YKZhiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFB71DC30145009E2FCF /* YKZhiBoViewController.m */; };
+		048FCFEE1DC33B4B009E2FCF /* NHCarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 048FCFD51DC33B4B009E2FCF /* NHCarView.nib */; };
+		048FCFEF1DC33B4B009E2FCF /* NHFighterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 048FCFD61DC33B4B009E2FCF /* NHFighterView.nib */; };
+		048FCFF01DC33B4B009E2FCF /* NHPlaneView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 048FCFD71DC33B4B009E2FCF /* NHPlaneView.nib */; };
+		048FCFF31DC33B4B009E2FCF /* NHGiftAnimtionSDK.86 in Frameworks */ = {isa = PBXBuildFile; fileRef = 048FCFE21DC33B4B009E2FCF /* NHGiftAnimtionSDK.86 */; };
+		048FCFF41DC33B4C009E2FCF /* NHGiftAnimtionSDK.arm in Frameworks */ = {isa = PBXBuildFile; fileRef = 048FCFE31DC33B4B009E2FCF /* NHGiftAnimtionSDK.arm */; };
+		048FCFF61DC33B4C009E2FCF /* NHGiftAnimtionSDK.x64 in Frameworks */ = {isa = PBXBuildFile; fileRef = 048FCFE51DC33B4B009E2FCF /* NHGiftAnimtionSDK.x64 */; };
+		048FCFFC1DC33D5A009E2FCF /* NHGiftAnimtionSDK.unknown in Frameworks */ = {isa = PBXBuildFile; fileRef = 048FCFFB1DC33D5A009E2FCF /* NHGiftAnimtionSDK.unknown */; };
+		048FD0001DC33F5F009E2FCF /* NHCarView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFD51DC33B4B009E2FCF /* NHCarView.nib */; };
+		048FD0011DC33F5F009E2FCF /* NHFighterView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFD61DC33B4B009E2FCF /* NHFighterView.nib */; };
+		048FD0021DC33F5F009E2FCF /* NHPlaneView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFD71DC33B4B009E2FCF /* NHPlaneView.nib */; };
+		048FD0031DC33F5F009E2FCF /* NHCarView.h in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFD91DC33B4B009E2FCF /* NHCarView.h */; };
+		048FD0041DC33F5F009E2FCF /* NHFighterView.h in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFDA1DC33B4B009E2FCF /* NHFighterView.h */; };
+		048FD0051DC33F5F009E2FCF /* NHHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFDB1DC33B4B009E2FCF /* NHHeader.h */; };
+		048FD0061DC33F5F009E2FCF /* NHPlaneView.h in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFDC1DC33B4B009E2FCF /* NHPlaneView.h */; };
+		048FD0071DC33F5F009E2FCF /* NHPresentFlower.h in Sources */ = {isa = PBXBuildFile; fileRef = 048FCFDD1DC33B4B009E2FCF /* NHPresentFlower.h */; };
+		04BB9C8A1DC3435A00E77030 /* NHCarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C871DC3435A00E77030 /* NHCarView.nib */; };
+		04BB9C8B1DC3435A00E77030 /* NHFighterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C881DC3435A00E77030 /* NHFighterView.nib */; };
+		04BB9C8C1DC3435A00E77030 /* NHPlaneView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C891DC3435A00E77030 /* NHPlaneView.nib */; };
+		04BB9C931DC3437700E77030 /* NHCarViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB9C8E1DC3437700E77030 /* NHCarViews.m */; };
+		04BB9C941DC3437700E77030 /* NHCarViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C8F1DC3437700E77030 /* NHCarViews.xib */; };
+		04BB9C951DC3437700E77030 /* NHPlaneViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB9C911DC3437700E77030 /* NHPlaneViews.m */; };
+		04BB9C961DC3437700E77030 /* NHPlaneViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C921DC3437700E77030 /* NHPlaneViews.xib */; };
+		04BB9C9C1DC347A600E77030 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C9B1DC347A600E77030 /* resource.bundle */; };
+		04BB9C9E1DC35EB400E77030 /* YKZhiBoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BB9C9D1DC35EB400E77030 /* YKZhiBoViewController.xib */; };
+		04BB9CA11DC35FB000E77030 /* YKLivePreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB9CA01DC35FB000E77030 /* YKLivePreView.m */; };
+		04CE63661DC25BD4003CF47B /* YKHotBoFangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE63651DC25BD4003CF47B /* YKHotBoFangViewController.m */; };
+		04CE63681DC25C31003CF47B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63671DC25C31003CF47B /* IJKMediaFramework.framework */; };
+		04CE636A1DC25C61003CF47B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63691DC25C61003CF47B /* AudioToolbox.framework */; };
+		04CE636C1DC25C6E003CF47B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE636B1DC25C6E003CF47B /* CoreGraphics.framework */; };
+		04CE636E1DC25C7B003CF47B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE636D1DC25C7B003CF47B /* CoreMedia.framework */; };
+		04CE63701DC25C86003CF47B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE636F1DC25C86003CF47B /* AVFoundation.framework */; };
+		04CE63721DC25C97003CF47B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63711DC25C97003CF47B /* CoreVideo.framework */; };
+		04CE63741DC25CAA003CF47B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63731DC25CAA003CF47B /* libbz2.tbd */; };
+		04CE63761DC25CB3003CF47B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63751DC25CB3003CF47B /* libz.tbd */; };
+		04CE63781DC25CBC003CF47B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63771DC25CBC003CF47B /* MediaPlayer.framework */; };
+		04CE637A1DC25CC3003CF47B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE63791DC25CC3003CF47B /* MobileCoreServices.framework */; };
+		04CE637C1DC25CCC003CF47B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE637B1DC25CCC003CF47B /* OpenGLES.framework */; };
+		04CE637E1DC25CD4003CF47B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE637D1DC25CD4003CF47B /* QuartzCore.framework */; };
+		04CE63801DC25CDE003CF47B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE637F1DC25CDE003CF47B /* VideoToolbox.framework */; };
+		68AED31378ED531B6BBD33EE /* libPods-直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11856B7EAAA48F1B38DCC42A /* libPods-直播.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0419C7081DC1E5EB00311DCF /* YinkeNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinkeNetworking.h; sourceTree = "<group>"; };
+		0419C7091DC1E5EB00311DCF /* YinkeNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YinkeNetworking.m; sourceTree = "<group>"; };
+		0419C70B1DC1ED1600311DCF /* KTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNavigationViewController.h; sourceTree = "<group>"; };
+		0419C70C1DC1ED1600311DCF /* KTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTNavigationViewController.m; sourceTree = "<group>"; };
+		0419C70D1DC1ED1600311DCF /* KTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBarController.h; sourceTree = "<group>"; };
+		0419C70E1DC1ED1600311DCF /* KTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBarController.m; sourceTree = "<group>"; };
+		0419C7151DC1EE4700311DCF /* KTHotLiveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTHotLiveTableViewController.h; sourceTree = "<group>"; };
+		0419C7161DC1EE4700311DCF /* KTHotLiveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTHotLiveTableViewController.m; sourceTree = "<group>"; };
+		0419C7181DC1EE6A00311DCF /* KTNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNearViewController.h; sourceTree = "<group>"; };
+		0419C7191DC1EE6A00311DCF /* KTNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTNearViewController.m; sourceTree = "<group>"; };
+		0419C71C1DC1EFA300311DCF /* YKHotLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHotLive.h; sourceTree = "<group>"; };
+		0419C71D1DC1EFA300311DCF /* Lives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lives.m; sourceTree = "<group>"; };
+		0419C71E1DC1EFA300311DCF /* Lives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lives.h; sourceTree = "<group>"; };
+		0419C71F1DC1EFA300311DCF /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		0419C7201DC1EFA300311DCF /* Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creator.m; sourceTree = "<group>"; };
+		0419C7211DC1EFA300311DCF /* Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creator.h; sourceTree = "<group>"; };
+		0419C7221DC1EFA300311DCF /* YKHotLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHotLive.m; sourceTree = "<group>"; };
+		0419C7261DC1F62700311DCF /* YKHotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHotTableViewCell.h; sourceTree = "<group>"; };
+		0419C7271DC1F62700311DCF /* YKHotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHotTableViewCell.m; sourceTree = "<group>"; };
+		0419C7281DC1F62700311DCF /* YKHotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKHotTableViewCell.xib; sourceTree = "<group>"; };
+		042890E91DC1DF83000BF66F /* YinKe.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinKe.pch; sourceTree = "<group>"; };
+		042890EB1DC1E123000BF66F /* YinKeNetWorkingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinKeNetWorkingAPI.h; sourceTree = "<group>"; };
+		042B26231DC1DA9600E86A43 /* 直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B26271DC1DA9600E86A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042B26291DC1DA9600E86A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042B262A1DC1DA9600E86A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042B26321DC1DA9600E86A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042B26351DC1DA9600E86A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042B26371DC1DA9600E86A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048FCF9F1DC2E48D009E2FCF /* YKHotLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHotLiveChatViewController.h; sourceTree = "<group>"; };
+		048FCFA01DC2E48D009E2FCF /* YKHotLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHotLiveChatViewController.m; sourceTree = "<group>"; };
+		048FCFA11DC2E48D009E2FCF /* YKHotLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKHotLiveChatViewController.xib; sourceTree = "<group>"; };
+		048FCFA41DC2EF0F009E2FCF /* SXTNearLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTNearLiveCell.h; sourceTree = "<group>"; };
+		048FCFA51DC2EF0F009E2FCF /* SXTNearLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTNearLiveCell.m; sourceTree = "<group>"; };
+		048FCFA61DC2EF0F009E2FCF /* SXTNearLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXTNearLiveCell.xib; sourceTree = "<group>"; };
+		048FCFAA1DC2F450009E2FCF /* YKNearCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNearCreator.h; sourceTree = "<group>"; };
+		048FCFAB1DC2F450009E2FCF /* YKNearCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNearCreator.m; sourceTree = "<group>"; };
+		048FCFAC1DC2F450009E2FCF /* YKNearLives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNearLives.h; sourceTree = "<group>"; };
+		048FCFAD1DC2F450009E2FCF /* YKNearLives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNearLives.m; sourceTree = "<group>"; };
+		048FCFAE1DC2F450009E2FCF /* YKNearPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNearPerson.h; sourceTree = "<group>"; };
+		048FCFAF1DC2F450009E2FCF /* YKNearPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNearPerson.m; sourceTree = "<group>"; };
+		048FCFB61DC30145009E2FCF /* YKZhiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKZhiBoViewController.h; sourceTree = "<group>"; };
+		048FCFB71DC30145009E2FCF /* YKZhiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKZhiBoViewController.m; sourceTree = "<group>"; };
+		048FCFD51DC33B4B009E2FCF /* NHCarView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHCarView.nib; sourceTree = "<group>"; };
+		048FCFD61DC33B4B009E2FCF /* NHFighterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHFighterView.nib; sourceTree = "<group>"; };
+		048FCFD71DC33B4B009E2FCF /* NHPlaneView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHPlaneView.nib; sourceTree = "<group>"; };
+		048FCFD91DC33B4B009E2FCF /* NHCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCarView.h; sourceTree = "<group>"; };
+		048FCFDA1DC33B4B009E2FCF /* NHFighterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFighterView.h; sourceTree = "<group>"; };
+		048FCFDB1DC33B4B009E2FCF /* NHHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHeader.h; sourceTree = "<group>"; };
+		048FCFDC1DC33B4B009E2FCF /* NHPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPlaneView.h; sourceTree = "<group>"; };
+		048FCFDD1DC33B4B009E2FCF /* NHPresentFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPresentFlower.h; sourceTree = "<group>"; };
+		048FCFE21DC33B4B009E2FCF /* NHGiftAnimtionSDK.86 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NHGiftAnimtionSDK.86; sourceTree = "<group>"; };
+		048FCFE31DC33B4B009E2FCF /* NHGiftAnimtionSDK.arm */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NHGiftAnimtionSDK.arm; sourceTree = "<group>"; };
+		048FCFE51DC33B4B009E2FCF /* NHGiftAnimtionSDK.x64 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NHGiftAnimtionSDK.x64; sourceTree = "<group>"; };
+		048FCFFB1DC33D5A009E2FCF /* NHGiftAnimtionSDK.unknown */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NHGiftAnimtionSDK.unknown; sourceTree = "<group>"; };
+		04BB9C871DC3435A00E77030 /* NHCarView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHCarView.nib; sourceTree = "<group>"; };
+		04BB9C881DC3435A00E77030 /* NHFighterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHFighterView.nib; sourceTree = "<group>"; };
+		04BB9C891DC3435A00E77030 /* NHPlaneView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHPlaneView.nib; sourceTree = "<group>"; };
+		04BB9C8D1DC3437700E77030 /* NHCarViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCarViews.h; sourceTree = "<group>"; };
+		04BB9C8E1DC3437700E77030 /* NHCarViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCarViews.m; sourceTree = "<group>"; };
+		04BB9C8F1DC3437700E77030 /* NHCarViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHCarViews.xib; sourceTree = "<group>"; };
+		04BB9C901DC3437700E77030 /* NHPlaneViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPlaneViews.h; sourceTree = "<group>"; };
+		04BB9C911DC3437700E77030 /* NHPlaneViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPlaneViews.m; sourceTree = "<group>"; };
+		04BB9C921DC3437700E77030 /* NHPlaneViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHPlaneViews.xib; sourceTree = "<group>"; };
+		04BB9C9B1DC347A600E77030 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		04BB9C9D1DC35EB400E77030 /* YKZhiBoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKZhiBoViewController.xib; sourceTree = "<group>"; };
+		04BB9C9F1DC35FB000E77030 /* YKLivePreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLivePreView.h; sourceTree = "<group>"; };
+		04BB9CA01DC35FB000E77030 /* YKLivePreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLivePreView.m; sourceTree = "<group>"; };
+		04CE63641DC25BD4003CF47B /* YKHotBoFangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHotBoFangViewController.h; sourceTree = "<group>"; };
+		04CE63651DC25BD4003CF47B /* YKHotBoFangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHotBoFangViewController.m; sourceTree = "<group>"; };
+		04CE63671DC25C31003CF47B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "直播/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+		04CE63691DC25C61003CF47B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04CE636B1DC25C6E003CF47B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04CE636D1DC25C7B003CF47B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04CE636F1DC25C86003CF47B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04CE63711DC25C97003CF47B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		04CE63731DC25CAA003CF47B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		04CE63751DC25CB3003CF47B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04CE63771DC25CBC003CF47B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		04CE63791DC25CC3003CF47B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04CE637B1DC25CCC003CF47B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		04CE637D1DC25CD4003CF47B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04CE637F1DC25CDE003CF47B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		0AAC21A6C8EB32504E2FF330 /* Pods-直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-直播/Pods-直播.debug.xcconfig"; sourceTree = "<group>"; };
+		11856B7EAAA48F1B38DCC42A /* libPods-直播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-直播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB5E1D674D86233C5EDAFA6 /* Pods-直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-直播/Pods-直播.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042B26201DC1DA9600E86A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE63801DC25CDE003CF47B /* VideoToolbox.framework in Frameworks */,
+				04CE637E1DC25CD4003CF47B /* QuartzCore.framework in Frameworks */,
+				048FCFF61DC33B4C009E2FCF /* NHGiftAnimtionSDK.x64 in Frameworks */,
+				04CE637C1DC25CCC003CF47B /* OpenGLES.framework in Frameworks */,
+				04CE637A1DC25CC3003CF47B /* MobileCoreServices.framework in Frameworks */,
+				048FCFF41DC33B4C009E2FCF /* NHGiftAnimtionSDK.arm in Frameworks */,
+				04CE63781DC25CBC003CF47B /* MediaPlayer.framework in Frameworks */,
+				04CE63761DC25CB3003CF47B /* libz.tbd in Frameworks */,
+				048FCFFC1DC33D5A009E2FCF /* NHGiftAnimtionSDK.unknown in Frameworks */,
+				04CE63741DC25CAA003CF47B /* libbz2.tbd in Frameworks */,
+				04CE63721DC25C97003CF47B /* CoreVideo.framework in Frameworks */,
+				048FCFF31DC33B4B009E2FCF /* NHGiftAnimtionSDK.86 in Frameworks */,
+				04CE63701DC25C86003CF47B /* AVFoundation.framework in Frameworks */,
+				04CE636E1DC25C7B003CF47B /* CoreMedia.framework in Frameworks */,
+				04CE636C1DC25C6E003CF47B /* CoreGraphics.framework in Frameworks */,
+				04CE636A1DC25C61003CF47B /* AudioToolbox.framework in Frameworks */,
+				68AED31378ED531B6BBD33EE /* libPods-直播.a in Frameworks */,
+				04CE63681DC25C31003CF47B /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419C7111DC1ED6900311DCF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0419C70B1DC1ED1600311DCF /* KTNavigationViewController.h */,
+				0419C70C1DC1ED1600311DCF /* KTNavigationViewController.m */,
+				0419C70D1DC1ED1600311DCF /* KTTabBarController.h */,
+				0419C70E1DC1ED1600311DCF /* KTTabBarController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0419C7121DC1ED7A00311DCF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				042890EB1DC1E123000BF66F /* YinKeNetWorkingAPI.h */,
+				0419C7081DC1E5EB00311DCF /* YinkeNetworking.h */,
+				0419C7091DC1E5EB00311DCF /* YinkeNetworking.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		0419C7131DC1ED8D00311DCF /* Near */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFB41DC30022009E2FCF /* View */,
+				048FCFB31DC30012009E2FCF /* Controller */,
+				048FCFA91DC2F314009E2FCF /* NearModel */,
+			);
+			name = Near;
+			sourceTree = "<group>";
+		};
+		0419C7141DC1ED9500311DCF /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFCF1DC33B05009E2FCF /* Animation */,
+				048FCF9E1DC2D2FD009E2FCF /* View */,
+				04CE63631DC25BA9003CF47B /* Controller */,
+				0419C71B1DC1EF9800311DCF /* Model */,
+			);
+			name = Hot;
+			sourceTree = "<group>";
+		};
+		0419C71B1DC1EF9800311DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0419C71C1DC1EFA300311DCF /* YKHotLive.h */,
+				0419C71D1DC1EFA300311DCF /* Lives.m */,
+				0419C71E1DC1EFA300311DCF /* Lives.h */,
+				0419C71F1DC1EFA300311DCF /* DataModels.h */,
+				0419C7201DC1EFA300311DCF /* Creator.m */,
+				0419C7211DC1EFA300311DCF /* Creator.h */,
+				0419C7221DC1EFA300311DCF /* YKHotLive.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		042B261A1DC1DA9600E86A43 = {
+			isa = PBXGroup;
+			children = (
+				042B26251DC1DA9600E86A43 /* 直播 */,
+				042B26241DC1DA9600E86A43 /* Products */,
+				AB4C87B2DE9458725072C5C7 /* Pods */,
+				0623B76A380831ED927B9B7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042B26241DC1DA9600E86A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042B26231DC1DA9600E86A43 /* 直播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042B26251DC1DA9600E86A43 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFB51DC30125009E2FCF /* ZhiBo */,
+				0419C7141DC1ED9500311DCF /* Hot */,
+				0419C7131DC1ED8D00311DCF /* Near */,
+				0419C7121DC1ED7A00311DCF /* Networking */,
+				0419C7111DC1ED6900311DCF /* Base */,
+				042B26261DC1DA9600E86A43 /* Supporting Files */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		042B26261DC1DA9600E86A43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042B26271DC1DA9600E86A43 /* main.m */,
+				042890E91DC1DF83000BF66F /* YinKe.pch */,
+				042B26291DC1DA9600E86A43 /* AppDelegate.h */,
+				042B262A1DC1DA9600E86A43 /* AppDelegate.m */,
+				042B26321DC1DA9600E86A43 /* Assets.xcassets */,
+				042B26341DC1DA9600E86A43 /* LaunchScreen.storyboard */,
+				042B26371DC1DA9600E86A43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048FCF9E1DC2D2FD009E2FCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0419C7261DC1F62700311DCF /* YKHotTableViewCell.h */,
+				0419C7271DC1F62700311DCF /* YKHotTableViewCell.m */,
+				0419C7281DC1F62700311DCF /* YKHotTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		048FCFA91DC2F314009E2FCF /* NearModel */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFAA1DC2F450009E2FCF /* YKNearCreator.h */,
+				048FCFAB1DC2F450009E2FCF /* YKNearCreator.m */,
+				048FCFAC1DC2F450009E2FCF /* YKNearLives.h */,
+				048FCFAD1DC2F450009E2FCF /* YKNearLives.m */,
+				048FCFAE1DC2F450009E2FCF /* YKNearPerson.h */,
+				048FCFAF1DC2F450009E2FCF /* YKNearPerson.m */,
+			);
+			name = NearModel;
+			sourceTree = "<group>";
+		};
+		048FCFB31DC30012009E2FCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0419C7181DC1EE6A00311DCF /* KTNearViewController.h */,
+				0419C7191DC1EE6A00311DCF /* KTNearViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		048FCFB41DC30022009E2FCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFA41DC2EF0F009E2FCF /* SXTNearLiveCell.h */,
+				048FCFA51DC2EF0F009E2FCF /* SXTNearLiveCell.m */,
+				048FCFA61DC2EF0F009E2FCF /* SXTNearLiveCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		048FCFB51DC30125009E2FCF /* ZhiBo */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFB61DC30145009E2FCF /* YKZhiBoViewController.h */,
+				048FCFB71DC30145009E2FCF /* YKZhiBoViewController.m */,
+				04BB9C9D1DC35EB400E77030 /* YKZhiBoViewController.xib */,
+				04BB9C9F1DC35FB000E77030 /* YKLivePreView.h */,
+				04BB9CA01DC35FB000E77030 /* YKLivePreView.m */,
+			);
+			name = ZhiBo;
+			sourceTree = "<group>";
+		};
+		048FCFCF1DC33B05009E2FCF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				04BB9C9B1DC347A600E77030 /* resource.bundle */,
+				04BB9C8D1DC3437700E77030 /* NHCarViews.h */,
+				04BB9C8E1DC3437700E77030 /* NHCarViews.m */,
+				04BB9C8F1DC3437700E77030 /* NHCarViews.xib */,
+				04BB9C901DC3437700E77030 /* NHPlaneViews.h */,
+				04BB9C911DC3437700E77030 /* NHPlaneViews.m */,
+				04BB9C921DC3437700E77030 /* NHPlaneViews.xib */,
+				04BB9C861DC3435A00E77030 /* genuine */,
+				048FCFD41DC33B4B009E2FCF /* imulator */,
+				048FCFD81DC33B4B009E2FCF /* include */,
+				048FCFE11DC33B4B009E2FCF /* NHGiftAnimtionSDK */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		048FCFD41DC33B4B009E2FCF /* imulator */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFD51DC33B4B009E2FCF /* NHCarView.nib */,
+				048FCFD61DC33B4B009E2FCF /* NHFighterView.nib */,
+				048FCFD71DC33B4B009E2FCF /* NHPlaneView.nib */,
+			);
+			path = imulator;
+			sourceTree = "<group>";
+		};
+		048FCFD81DC33B4B009E2FCF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFD91DC33B4B009E2FCF /* NHCarView.h */,
+				048FCFDA1DC33B4B009E2FCF /* NHFighterView.h */,
+				048FCFDB1DC33B4B009E2FCF /* NHHeader.h */,
+				048FCFDC1DC33B4B009E2FCF /* NHPlaneView.h */,
+				048FCFDD1DC33B4B009E2FCF /* NHPresentFlower.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		048FCFE11DC33B4B009E2FCF /* NHGiftAnimtionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				048FCFE21DC33B4B009E2FCF /* NHGiftAnimtionSDK.86 */,
+				048FCFE31DC33B4B009E2FCF /* NHGiftAnimtionSDK.arm */,
+				048FCFFB1DC33D5A009E2FCF /* NHGiftAnimtionSDK.unknown */,
+				048FCFE51DC33B4B009E2FCF /* NHGiftAnimtionSDK.x64 */,
+			);
+			path = NHGiftAnimtionSDK;
+			sourceTree = "<group>";
+		};
+		04BB9C861DC3435A00E77030 /* genuine */ = {
+			isa = PBXGroup;
+			children = (
+				04BB9C871DC3435A00E77030 /* NHCarView.nib */,
+				04BB9C881DC3435A00E77030 /* NHFighterView.nib */,
+				04BB9C891DC3435A00E77030 /* NHPlaneView.nib */,
+			);
+			path = genuine;
+			sourceTree = "<group>";
+		};
+		04CE63631DC25BA9003CF47B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0419C7151DC1EE4700311DCF /* KTHotLiveTableViewController.h */,
+				0419C7161DC1EE4700311DCF /* KTHotLiveTableViewController.m */,
+				04CE63641DC25BD4003CF47B /* YKHotBoFangViewController.h */,
+				04CE63651DC25BD4003CF47B /* YKHotBoFangViewController.m */,
+				048FCF9F1DC2E48D009E2FCF /* YKHotLiveChatViewController.h */,
+				048FCFA01DC2E48D009E2FCF /* YKHotLiveChatViewController.m */,
+				048FCFA11DC2E48D009E2FCF /* YKHotLiveChatViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0623B76A380831ED927B9B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CE63671DC25C31003CF47B /* IJKMediaFramework.framework */,
+				04CE637F1DC25CDE003CF47B /* VideoToolbox.framework */,
+				04CE637D1DC25CD4003CF47B /* QuartzCore.framework */,
+				04CE637B1DC25CCC003CF47B /* OpenGLES.framework */,
+				04CE63791DC25CC3003CF47B /* MobileCoreServices.framework */,
+				04CE63771DC25CBC003CF47B /* MediaPlayer.framework */,
+				04CE63751DC25CB3003CF47B /* libz.tbd */,
+				04CE63731DC25CAA003CF47B /* libbz2.tbd */,
+				04CE63711DC25C97003CF47B /* CoreVideo.framework */,
+				04CE636F1DC25C86003CF47B /* AVFoundation.framework */,
+				04CE636D1DC25C7B003CF47B /* CoreMedia.framework */,
+				04CE636B1DC25C6E003CF47B /* CoreGraphics.framework */,
+				04CE63691DC25C61003CF47B /* AudioToolbox.framework */,
+				11856B7EAAA48F1B38DCC42A /* libPods-直播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB4C87B2DE9458725072C5C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AAC21A6C8EB32504E2FF330 /* Pods-直播.debug.xcconfig */,
+				2BB5E1D674D86233C5EDAFA6 /* Pods-直播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042B26221DC1DA9600E86A43 /* 直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B263A1DC1DA9600E86A43 /* Build configuration list for PBXNativeTarget "直播" */;
+			buildPhases = (
+				26B40DA6176E7715FA0285FB /* [CP] Check Pods Manifest.lock */,
+				042B261F1DC1DA9600E86A43 /* Sources */,
+				042B26201DC1DA9600E86A43 /* Frameworks */,
+				042B26211DC1DA9600E86A43 /* Resources */,
+				C8C88B1D2898D5FC28B49FB1 /* [CP] Embed Pods Frameworks */,
+				206049E1CB647FEA0CB6132E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直播";
+			productName = "直播";
+			productReference = 042B26231DC1DA9600E86A43 /* 直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042B261B1DC1DA9600E86A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = haofujie;
+				TargetAttributes = {
+					042B26221DC1DA9600E86A43 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JP384R79AL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 042B261E1DC1DA9600E86A43 /* Build configuration list for PBXProject "直播" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042B261A1DC1DA9600E86A43;
+			productRefGroup = 042B26241DC1DA9600E86A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042B26221DC1DA9600E86A43 /* 直播 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042B26211DC1DA9600E86A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419C72A1DC1F62700311DCF /* YKHotTableViewCell.xib in Resources */,
+				042B26361DC1DA9600E86A43 /* LaunchScreen.storyboard in Resources */,
+				048FCFA31DC2E48D009E2FCF /* YKHotLiveChatViewController.xib in Resources */,
+				048FCFA81DC2EF0F009E2FCF /* SXTNearLiveCell.xib in Resources */,
+				048FCFF01DC33B4B009E2FCF /* NHPlaneView.nib in Resources */,
+				04BB9C941DC3437700E77030 /* NHCarViews.xib in Resources */,
+				04BB9C9E1DC35EB400E77030 /* YKZhiBoViewController.xib in Resources */,
+				048FCFEE1DC33B4B009E2FCF /* NHCarView.nib in Resources */,
+				04BB9C8C1DC3435A00E77030 /* NHPlaneView.nib in Resources */,
+				04BB9C8A1DC3435A00E77030 /* NHCarView.nib in Resources */,
+				042B26331DC1DA9600E86A43 /* Assets.xcassets in Resources */,
+				04BB9C8B1DC3435A00E77030 /* NHFighterView.nib in Resources */,
+				04BB9C9C1DC347A600E77030 /* resource.bundle in Resources */,
+				04BB9C961DC3437700E77030 /* NHPlaneViews.xib in Resources */,
+				048FCFEF1DC33B4B009E2FCF /* NHFighterView.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206049E1CB647FEA0CB6132E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播/Pods-直播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26B40DA6176E7715FA0285FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C88B1D2898D5FC28B49FB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播/Pods-直播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042B261F1DC1DA9600E86A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048FD0001DC33F5F009E2FCF /* NHCarView.nib in Sources */,
+				04BB9C951DC3437700E77030 /* NHPlaneViews.m in Sources */,
+				048FD0011DC33F5F009E2FCF /* NHFighterView.nib in Sources */,
+				048FD0021DC33F5F009E2FCF /* NHPlaneView.nib in Sources */,
+				048FD0031DC33F5F009E2FCF /* NHCarView.h in Sources */,
+				048FD0041DC33F5F009E2FCF /* NHFighterView.h in Sources */,
+				048FD0051DC33F5F009E2FCF /* NHHeader.h in Sources */,
+				048FD0061DC33F5F009E2FCF /* NHPlaneView.h in Sources */,
+				048FD0071DC33F5F009E2FCF /* NHPresentFlower.h in Sources */,
+				0419C7101DC1ED1600311DCF /* KTTabBarController.m in Sources */,
+				048FCFB01DC2F450009E2FCF /* YKNearCreator.m in Sources */,
+				04CE63661DC25BD4003CF47B /* YKHotBoFangViewController.m in Sources */,
+				0419C71A1DC1EE6A00311DCF /* KTNearViewController.m in Sources */,
+				0419C70A1DC1E5EB00311DCF /* YinkeNetworking.m in Sources */,
+				048FCFB11DC2F450009E2FCF /* YKNearLives.m in Sources */,
+				048FCFA21DC2E48D009E2FCF /* YKHotLiveChatViewController.m in Sources */,
+				04BB9C931DC3437700E77030 /* NHCarViews.m in Sources */,
+				048FCFB81DC30145009E2FCF /* YKZhiBoViewController.m in Sources */,
+				048FCFB21DC2F450009E2FCF /* YKNearPerson.m in Sources */,
+				0419C7171DC1EE4700311DCF /* KTHotLiveTableViewController.m in Sources */,
+				0419C70F1DC1ED1600311DCF /* KTNavigationViewController.m in Sources */,
+				048FCFA71DC2EF0F009E2FCF /* SXTNearLiveCell.m in Sources */,
+				0419C7231DC1EFA300311DCF /* Lives.m in Sources */,
+				0419C7291DC1F62700311DCF /* YKHotTableViewCell.m in Sources */,
+				042B262B1DC1DA9600E86A43 /* AppDelegate.m in Sources */,
+				0419C7251DC1EFA300311DCF /* YKHotLive.m in Sources */,
+				0419C7241DC1EFA300311DCF /* Creator.m in Sources */,
+				04BB9CA11DC35FB000E77030 /* YKLivePreView.m in Sources */,
+				042B26281DC1DA9600E86A43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042B26341DC1DA9600E86A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B26351DC1DA9600E86A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042B26381DC1DA9600E86A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042B26391DC1DA9600E86A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042B263B1DC1DA9600E86A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAC21A6C8EB32504E2FF330 /* Pods-直播.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP384R79AL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播",
+				);
+				GCC_PREFIX_HEADER = "./直播/YinKe.pch";
+				INFOPLIST_FILE = "直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播/NHGiftAnimtionSDK",
+					"$(PROJECT_DIR)/直播",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujiehao.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042B263C1DC1DA9600E86A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB5E1D674D86233C5EDAFA6 /* Pods-直播.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP384R79AL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播",
+				);
+				GCC_PREFIX_HEADER = "./直播/YinKe.pch";
+				INFOPLIST_FILE = "直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播/NHGiftAnimtionSDK",
+					"$(PROJECT_DIR)/直播",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujiehao.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042B261E1DC1DA9600E86A43 /* Build configuration list for PBXProject "直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B26381DC1DA9600E86A43 /* Debug */,
+				042B26391DC1DA9600E86A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042B263A1DC1DA9600E86A43 /* Build configuration list for PBXNativeTarget "直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B263B1DC1DA9600E86A43 /* Debug */,
+				042B263C1DC1DA9600E86A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042B261B1DC1DA9600E86A43 /* Project object */;
+}
